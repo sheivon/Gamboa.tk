@@ -116,13 +116,23 @@
                     <div>
                         <img src="./img/o365.png" width="400px" height="300px" alt="">
                         <h4>
+                            RUN CMD AS ADMIN
+                            <br>
+                            <hr>
+                            <br>
                             <span>
                                 cd /d %ProgramFiles%\Microsoft Office\Office16
                                 cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
                             </span>
+                            <br>
+                            <hr>
+                            <br>
                             <span>
                                 for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
                             </span>
+                            <br>
+                            <hr>
+                            <br>
                             <span>
                                 cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
                                 cscript ospp.vbs /unpkey:BTDRB >nul
